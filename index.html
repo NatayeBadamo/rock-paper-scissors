@@ -6,17 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="game('rock')">
+    <button onclick="playRound('rock')">
         Rock
     </button>
-    <button onclick="game('paper')">
+    <button onclick="playRound('paper')">
         Paper
     </button>
-    <button onclick="game('scissors')">
+    <button onclick="playRound('scissors')">
         Scissors
     </button>
 
     <p id="result">Result will be displayed here</p>
+
+    <p id="playerScore"></p>
+    <p id="computerScore"></p>
+
+    <p id="winner"></p>
     <script src="index.js"></script>
 </body>
 </html>
